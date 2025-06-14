@@ -1,0 +1,14 @@
+{
+  "name": "freelance",
+  "version": "1.0.0",
+  "description": "Freelance workspace containing AI and XR portfolio project",
+  "private": true,
+  "workspaces": [
+    "ai-xr-portfolio"
+  ],
+  "scripts": {
+    "dev": "cd ai-xr-portfolio && npm run dev",
+    "build": "cd ai-xr-portfolio && npm run build",
+    "start": "cd ai-xr-portfolio && npm run start"
+  }
+} 
